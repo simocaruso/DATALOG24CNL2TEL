@@ -16,11 +16,11 @@ The project is structured as follows:
     
     `telingo encoding instance -c n=X`
 
-    where `encoding` can be either one of the generated encoding in the CNLs folder or one of the original encoding from the telingo's folder,
+    where `encoding` can be either one of the generated encoding in the CNLs folder or one of the original encoding from the [telingo's repository](https://github.com/potassco/telingo),
     `instance` is one of the instance in the instances folder and `X` is the problem size.
     For example, the hanoi problem with 4 disks can be tested running:
         
   `telingo CNLs/hanoi.generated instances/hanoi_cnl.lp -c n=4`
 
-Original telingo encodings and telingo installation instruction can be found at:
+Original telingo encodings and telingo installation instructions can be found at:
 https://github.com/potassco/telingo
